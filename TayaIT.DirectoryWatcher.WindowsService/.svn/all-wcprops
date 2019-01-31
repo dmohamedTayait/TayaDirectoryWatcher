@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/App.config
+END
+DWManager.resx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/DWManager.resx
+END
+TayaIT.DirectoryWatcher.WindowsService.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/TayaIT.DirectoryWatcher.WindowsService.csproj
+END
+DWManager.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/DWManager.Designer.cs
+END
+DWManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/DWManager.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/Program.cs
+END
+DWServiceInstaller.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/DWServiceInstaller.Designer.cs
+END
+DWServiceInstaller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher.WindowsService/DWServiceInstaller.cs
+END

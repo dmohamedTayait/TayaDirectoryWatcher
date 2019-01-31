@@ -1,0 +1,77 @@
+10
+
+dir
+2
+https://192.168.0.91/svn/TayaDirectoryWatcher/trunk
+https://192.168.0.91/svn/TayaDirectoryWatcher
+
+
+
+2012-02-08T13:33:56.952250Z
+2
+unada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+71efd68f-ec89-9041-8c4d-9215c015c75f
+
+TayaIT.DirectoryWatcher.Config
+dir
+
+TayaIT.DirectoryWatcher.WindowsService
+dir
+
+commondlls
+dir
+
+TayaIT.Trace.Log
+dir
+
+TayaIT.DirectoryWatcher
+dir
+
+TayaDirectoryWatcher.sln
+file
+
+
+
+
+2012-02-08T13:44:57.708041Z
+8338284df464910ed28ef32b354ca5d3
+2012-02-08T13:33:56.952250Z
+2
+unada
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5836
+

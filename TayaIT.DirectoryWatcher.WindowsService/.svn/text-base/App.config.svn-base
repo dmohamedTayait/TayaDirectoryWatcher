@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <section name="loggingConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.LoggingSettings, Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null" />                
+    </configSections>
+  
+    <loggingConfiguration name="Logging Application Block" tracingEnabled="true"
+      defaultCategory="General" logWarningsWhenNoCategoriesMatch="true">
+        <listeners>
+            <add fileName="logs\trace.log" header="" footer="" formatter="ItesxSearchLogformatter"
+              listenerDataType="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.FlatFileTraceListenerData, Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null"
+              traceOutputOptions="None" filter="All" type="Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener, Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null"
+              name="FlatFile TraceListener" />
+            <add fileName="logs\website-log.txt" footer="&lt;log&gt;" formatter="Text Formatter"
+              header="&lt;/log&gt;" rollFileExistsBehavior="Overwrite" rollInterval="None"
+              rollSizeKB="0" timeStampPattern="yyyy-MM-dd" listenerDataType="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.RollingFlatFileTraceListenerData, Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null"
+              traceOutputOptions="None" filter="All" type="Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.RollingFlatFileTraceListener, Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null"
+              name="Rolling Flat File Trace Listener" />
+        </listeners>
+        <formatters>
+            <add template="&lt;Message&gt;&#xD;&#xA;{message}&#xD;&#xA;&lt;/Message&gt;&#xD;&#xA;"
+              type="Microsoft.Practices.EnterpriseLibrary.Logging.Formatters.TextFormatter, Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null"
+              name="ItesxSearchLogformatter" />
+        </formatters>
+        <categorySources>
+            <add switchValue="All" name="General">
+                <listeners>
+                    <add name="FlatFile TraceListener" />
+                </listeners>
+            </add>
+        </categorySources>
+        <specialSources>
+            <allEvents switchValue="All" name="All Events" />
+            <notProcessed switchValue="All" name="Unprocessed Category" />
+            <errors switchValue="All" name="Logging Errors &amp; Warnings">
+                <listeners>
+                    <add name="FlatFile TraceListener" />
+                </listeners>
+            </errors>
+        </specialSources>
+    </loggingConfiguration>
+</configuration>

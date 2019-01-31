@@ -1,0 +1,2 @@
+E:\workspaces\TayaDirectoryWatcher\TayaIT.DirectoryWatcher\bin\Debug\TayaIT.DirectoryWatcher.exe.config
+E:\TayaDirectoryWatcher\TayaIT.DirectoryWatcher\bin\Debug\TayaIT.DirectoryWatcher.exe.config

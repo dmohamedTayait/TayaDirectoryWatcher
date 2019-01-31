@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher
+END
+ServiceInstaller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/ServiceInstaller.cs
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/app.config
+END
+app.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/app.manifest
+END
+LogonUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/LogonUtility.cs
+END
+LsaUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/LsaUtility.cs
+END
+FormMain.resx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/FormMain.resx
+END
+ServiceUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/ServiceUtility.cs
+END
+FormMain.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/FormMain.Designer.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/Program.cs
+END
+TayaIT.DirectoryWatcher.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/TayaIT.DirectoryWatcher.csproj
+END
+FormMain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TayaDirectoryWatcher/!svn/ver/2/trunk/TayaIT.DirectoryWatcher/FormMain.cs
+END

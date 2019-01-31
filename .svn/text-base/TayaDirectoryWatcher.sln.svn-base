@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TayaIT.DirectoryWatcher", "TayaIT.DirectoryWatcher\TayaIT.DirectoryWatcher.csproj", "{71CCD146-E315-4C4A-89EA-721573B86FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TayaIT.Trace.Log", "TayaIT.Trace.Log\TayaIT.Trace.Log.csproj", "{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commondlls", "commondlls", "{4D23D361-5D50-4296-930B-ECC3EF0B8C9F}"
+	ProjectSection(SolutionItems) = preProject
+		commondlls\Microsoft.Practices.EnterpriseLibrary.Common.dll = commondlls\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		commondlls\Microsoft.Practices.EnterpriseLibrary.Common.XML = commondlls\Microsoft.Practices.EnterpriseLibrary.Common.XML
+		commondlls\Microsoft.Practices.EnterpriseLibrary.Logging.dll = commondlls\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+		commondlls\Microsoft.Practices.EnterpriseLibrary.Logging.XML = commondlls\Microsoft.Practices.EnterpriseLibrary.Logging.XML
+		commondlls\Microsoft.Practices.ObjectBuilder2.dll = commondlls\Microsoft.Practices.ObjectBuilder2.dll
+		commondlls\Microsoft.Practices.ObjectBuilder2.xml = commondlls\Microsoft.Practices.ObjectBuilder2.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TayaIT.DirectoryWatcher.WindowsService", "TayaIT.DirectoryWatcher.WindowsService\TayaIT.DirectoryWatcher.WindowsService.csproj", "{8A31A420-43FE-4E81-8B7D-F49A52367747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TayaIT.DirectoryWatcher.Config", "TayaIT.DirectoryWatcher.Config\TayaIT.DirectoryWatcher.Config.csproj", "{8ADA6EF9-4143-4993-9900-7CE0EF096F80}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Debug|x86.ActiveCfg = Debug|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Debug|x86.Build.0 = Debug|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Release|Any CPU.ActiveCfg = Release|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Release|x86.ActiveCfg = Release|x86
+		{71CCD146-E315-4C4A-89EA-721573B86FCA}.Release|x86.Build.0 = Release|x86
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3965AA28-DEB9-4DD4-A15E-DCFB54BDE33A}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8A31A420-43FE-4E81-8B7D-F49A52367747}.Release|x86.ActiveCfg = Release|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8ADA6EF9-4143-4993-9900-7CE0EF096F80}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

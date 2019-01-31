@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+  <AppRootDir>D:\work\projects\Enterprise\TayaDirectoryWatcher\TayaIT.DirectoryWatcher\bin\Release</AppRootDir>
+  
+  <SourceFolder>\\192.168.0.90\Share\emadbatah\SimulateAudioServerFolder</SourceFolder>
+  <TempFolder>E:\tmp</TempFolder>
+  <TargetFolder>\\192.168.0.91\vss</TargetFolder>
+  <DeleteAfterCopy>false</DeleteAfterCopy>
+  <IncludeSubFolders>true</IncludeSubFolders>
+
+    <Service>    
+        <!--system account "NetworkService" or "LocalSystem" or "LocalService" or "User"-->
+        <Account>User</Account>
+        <Name>TayaDirectoryWatcherService</Name>
+        <Description>Taya IT Directory Watcher Service</Description>
+
+        <!--start mode (Automatic , Manual)-->
+        <StartMode>Automatic</StartMode>
+
+        <!--timeout in seconds .. when starting, stopping, or restarting service-->
+        <Timeout>120</Timeout>
+      
+        <!--user account-->
+        <AccountUserName>unada@develop.tayait.com</AccountUserName><!--Admin-->
+        <AccountPassword>sol@ktrap123Q</AccountPassword><!--123456-->
+        <RunEachInHours>1</RunEachInHours>      
+      
+        
+    </Service>
+  
+</Config>
